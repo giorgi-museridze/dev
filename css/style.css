@@ -63,6 +63,24 @@
     }
 
 
+
+
+
+    a.lang1{
+      text-decoration: none;  
+      text-align: center;
+
+    }
+    a.lang2{
+        text-decoration: none;
+        text-align: center;
+    }
+
+    .dropdown-menu li{
+        text-align: center;
+    }
+
+
     .container-fluid {
         background-color: #2B2E44;
         
@@ -244,10 +262,7 @@
         height: 24px;
         text-align: center;
         padding-left: 50px;
-       
-        
-        
-        
+  
     }
 
     .card-text {

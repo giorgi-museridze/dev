@@ -3,13 +3,14 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Forum</title>
+  <title>Document</title>
   <script src="https://kit.fontawesome.com/808a80cb49.js" crossorigin="anonymous"></script>
     
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-    <link rel="stylesheet" href="/css/forum.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="/css/aboutUs.css">
 </head>
-<body class="forum-bg" >
+<body>
   <nav class="navbar navbar-expand-lg navbar-light bg-light ">
     <div class="container-fluid">
       <a  style="color:#CE874E;" class="navbar-brand" href="./index.html">TECH</a>
@@ -38,6 +39,16 @@
           <li class="nav-item">
             <a class="nav-link Follow" href="#" >Follow</a>
           </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="lang" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Language
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a  style="color: #333;"class="lang1" href="#">English</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a style="color: #333;" class="lang2" href="#">Russian</a></li>
+            </ul>
+          </li>
         </ul>
         <form class="d-flex">
           <a href="/signIn.html" class="btn2">JOIN/SIGN IN</a>
@@ -48,54 +59,24 @@
     </div>
   </nav>
 
-  <div class="container1">
-    <div class="box2">
-      <a href="/signIn.html"><span style="text-decoration: underline;">LOG IN</span><span style="color: #333;"> to post</span></a>
-      <a href="#">FAQs</a>
-      <a href="#">Guidelines</a>
-    </div>
+  <div class="about-left">
+    <img src="/img/austin-poon-JO_S6ewBqAk-unsplash.jpg" alt="tech">
   </div>
 
-  <hr>
+  <div class="about-right">
+    <h2>About Us</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus quaerat sunt assumenda error officia id vel dicta, consequatur veritatis sint. Facilis explicabo enim vitae exercitationem neque ipsum alias facere deleniti.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus quaerat sunt assumenda error officia id vel dicta, consequatur veritatis sint. Facilis explicabo enim vitae exercitationem neque ipsum alias facere deleniti.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus quaerat sunt assumenda error officia id vel dicta, consequatur veritatis sint. Facilis explicabo enim vitae exercitationem neque ipsum alias facere deleniti.</p>
 
-  <table class="table table-hover">
-    <thead>
-      <tr>
-        <th scope="col">#</th>
-        <th scope="col">First</th>
-        
-        <th scope="col">Handle</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <th scope="row">1</th>
-        <td>Mark</td>
-        
-        <td>@mdo</td>
-      </tr>
-      <tr>
-        <th scope="row">2</th>
-        <td>Jacob</td>
-        <td>@fat</td>
-      </tr>
-      <tr>
-        <th scope="row">3</th>
-        <td colspan="2">Larry the Bird</td>
-        <td>Jacob</td>
-        
-        
-      </tr>
-    </tbody>
-  </table>
+  </div>
 
   <footer class="footer1">
     <p>Tech.com &copy; 2021, All Rights Reserved</p>
   </footer>
 
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
-  <script src="./script.js"></script>
 
+  
 </body>
 </html>
